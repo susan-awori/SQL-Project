@@ -120,3 +120,20 @@ WHERE ORDER_int BETWEEN 10998 AND 11003
 GROUP BY ORDER_int
 ORDER BY ORDER_int;
 
+/*
+Question 7
+Display suppliers of beverage products. The resulting table should display the 
+columns: supplier number, company, address, and phone number.*/
+SELECT DISTINCT
+    S.SUPPLIER_int,
+    S.COMPANY,
+    S.ADDRESS,
+    S.PHONE
+FROM SUPPLIERS S
+JOIN PRODUCTS P
+    ON S.SUPPLIER_int = P.SUPPLIER_int
+JOIN CATEGORIES C
+    ON P.CATEGORY_CODE = C.CATEGORY_CODE
+WHERE C.CATEGORY_NAME = 'Beverages';
+
+SELECT * FROM CATEGORIES;
