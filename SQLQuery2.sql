@@ -63,4 +63,27 @@ WHERE LOWER(QUANTITY) LIKE '%bottle%'
     AND UNIT_PRICE BETWEEN 70 AND 200
     AND UNITS_ON_ORDER IS NOT NULL;
 
-    
+    /*
+    Question 5
+    Display customers who reside in the same region as supplier 1, meaning they share the
+    same country, city, and the last three digits of the postal code. The query should 
+    utilize a single subquery. The resulting table should include all columns from the customer table.*/
+
+    SELECT *
+FROM CUSTOMERS
+WHERE COUNTRY = (
+    SELECT COUNTRY
+    FROM SUPPLIERS
+    WHERE SUPPLIER_int = 1
+)
+AND CITY = (
+    SELECT CITY
+    FROM SUPPLIERS
+    WHERE SUPPLIER_int = 1
+)
+AND RIGHT(POSTAL_CODE, 3) = (
+    SELECT RIGHT(POSTAL_CODE, 3)
+    FROM SUPPLIERS
+    WHERE SUPPLIER_int = 1
+);
+
