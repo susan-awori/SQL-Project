@@ -137,3 +137,57 @@ JOIN CATEGORIES C
 WHERE C.CATEGORY_NAME = 'Beverages';
 
 SELECT * FROM CATEGORIES;
+
+/*
+Question 8
+Display customers from Berlin who have ordered at most 1 (0 or 1) dessert product. 
+The resulting table should display the column: customer code.*/
+
+SELECT
+    C.CUSTOMER_CODE
+FROM CUSTOMERS C
+LEFT JOIN ORDERS O
+    ON C.CUSTOMER_CODE = O.CUSTOMER_CODE
+LEFT JOIN ORDER_DETAILS OD
+    ON O.ORDER_int = OD.ORDER_int
+LEFT JOIN PRODUCTS P
+    ON OD.PRODUCT_REF = P.PRODUCT_REF
+LEFT JOIN CATEGORIES CA
+    ON P.CATEGORY_CODE = CA.CATEGORY_CODE
+WHERE C.CITY = 'Berlin'
+GROUP BY C.CUSTOMER_CODE
+HAVING COUNT(
+    CASE
+        WHEN CA.CATEGORY_NAME = 'Desserts'
+        THEN P.PRODUCT_REF
+    END
+) <= 1;
+
+/* 
+Question 9
+Display customers who reside in France and the total amount of orders they placed every 
+Monday in April 1998 (considering customers who haven't placed any orders yet). 
+The resulting table should display the columns: customer number, company name, phone number, 
+total amount, and country.*/
+
+SELECT
+    C.CUSTOMER_CODE,
+    C.COMPANY,
+    C.PHONE,
+    ISNULL(SUM(OD.UNIT_PRICE * OD.QUANTITY * (1 - OD.DISCOUNT)), 0) AS TOTAL_AMOUNT,
+    C.COUNTRY
+FROM CUSTOMERS C
+LEFT JOIN ORDERS O
+    ON C.CUSTOMER_CODE = O.CUSTOMER_CODE
+    AND YEAR(O.ORDER_DATE) = 1998
+    AND MONTH(O.ORDER_DATE) = 4
+    AND DATENAME(WEEKDAY, O.ORDER_DATE) = 'Monday'
+LEFT JOIN ORDER_DETAILS OD
+    ON O.ORDER_int = OD.ORDER_int
+WHERE C.COUNTRY = 'France'
+GROUP BY
+    C.CUSTOMER_CODE,
+    C.COMPANY,
+    C.PHONE,
+    C.COUNTRY;
+
