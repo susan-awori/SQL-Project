@@ -128,19 +128,19 @@ select * from CUSTOMERS;
 
 INSERT INTO CUSTOMERS VALUES ( 'ALFKI','Alfreds Futterkiste','Obere Str. 57','Berlin','12209','Allemagne','030-0074321','030-0076545' );
 
-INSERT INTO CUSTOMERS VALUES ( 'ANATR','Ana Trujillo Emparedados y helados','Avda. de la Constitución 2222','México D.F.','05021','Mexique','(5) 555-4729','(5) 555-3745' );
+INSERT INTO CUSTOMERS VALUES ( 'ANATR','Ana Trujillo Emparedados y helados','Avda. de la Constituciï¿½n 2222','Mï¿½xico D.F.','05021','Mexique','(5) 555-4729','(5) 555-3745' );
 
-INSERT INTO CUSTOMERS VALUES ( 'ANTON','Antonio Moreno Taquería','Mataderos  2312','México D.F.','05023','Mexique','(5) 555-3932','' );
+INSERT INTO CUSTOMERS VALUES ( 'ANTON','Antonio Moreno Taquerï¿½a','Mataderos  2312','Mï¿½xico D.F.','05023','Mexique','(5) 555-3932','' );
 
 INSERT INTO CUSTOMERS VALUES ( 'AROUT','Around the Horn','120 Hanover Sq.','London','WA1 4SD','Royaume-Uni','(71) 555-7788','(71) 555-6750' );
 
-INSERT INTO CUSTOMERS VALUES ( 'BERGS','Berglunds snabbköp','Berguvsvägen  8','Luleå','S-958 22','Suède','0921-12 34 65','0921-12 34 67' );
+INSERT INTO CUSTOMERS VALUES ( 'BERGS','Berglunds snabbkï¿½p','Berguvsvï¿½gen  8','Luleï¿½','S-958 22','Suï¿½de','0921-12 34 65','0921-12 34 67' );
 
 INSERT INTO CUSTOMERS VALUES ('BLAUS','BlauerSeeDelikatessen','Forsterstr. 57','Mannheim','68306','Allemagne','0621-08460','0621-08924' );
 
-INSERT INTO CUSTOMERS VALUES ( 'BLONP','Blondel père et fils','24, place Kléber','Strasbourg','67000','France','03.88.60.15.31','03.88.60.15.32' );
+INSERT INTO CUSTOMERS VALUES ( 'BLONP','Blondel pï¿½re et fils','24, place Klï¿½ber','Strasbourg','67000','France','03.88.60.15.31','03.88.60.15.32' );
 
-INSERT INTO CUSTOMERS VALUES ( 'BOLID','Bólido Comidas preparadas','Araquil, 67','Madrid','28023','Espagne','(91) 555 22 82','(91) 555 91 99' );
+INSERT INTO CUSTOMERS VALUES ( 'BOLID','Bï¿½lido Comidas preparadas','Araquil, 67','Madrid','28023','Espagne','(91) 555 22 82','(91) 555 91 99' );
 
 INSERT INTO CUSTOMERS VALUES ( 'BONAP','Bon app''','12, rue des Bouchers','Marseille','13008','France','04.91.24.45.40','04.91.24.45.41' );
 
@@ -150,11 +150,11 @@ INSERT INTO CUSTOMERS VALUES ( 'BSBEV','B''s Beverages','Fauntleroy Circus','Lon
 
 INSERT INTO CUSTOMERS VALUES ( 'CACTU','Cactus Comidas para llevar','Cerrito 333','Buenos Aires','1010','Argentine','(1) 135-5555','(1) 135-4892' );
 
-INSERT INTO CUSTOMERS VALUES ( 'CENTC','Centro comercial Moctezuma','Sierras de Granada 9993','México D.F.','05022','Mexique','(5) 555-3392','(5) 555-7293' );
+INSERT INTO CUSTOMERS VALUES ( 'CENTC','Centro comercial Moctezuma','Sierras de Granada 9993','Mï¿½xico D.F.','05022','Mexique','(5) 555-3392','(5) 555-7293' );
 
 INSERT INTO CUSTOMERS VALUES ( 'CHOPS','Chop-suey Chinese','Hauptstr. 29','Bern','3012','Suisse','0452-076545','' );
 
-INSERT INTO CUSTOMERS VALUES ( 'COMMI','Comércio Mineiro','Av. dos Lusíadas, 23','São Paulo','05432-043','Brésil','(11) 555-7647','' );
+INSERT INTO CUSTOMERS VALUES ( 'COMMI','Comï¿½rcio Mineiro','Av. dos Lusï¿½adas, 23','Sï¿½o Paulo','05432-043','Brï¿½sil','(11) 555-7647','' );
 
 INSERT INTO CUSTOMERS VALUES ( 'CONSH','Consolidated Holdings','Berkeley Gardens12  Brewery ','London','WX1 4SD','Royaume-Uni','(71) 555-2282','(71) 555-9199' );
 
@@ -166,42 +166,42 @@ INSERT INTO CUSTOMERS VALUES ( 'EASTC','Eastern Connection','35 King George','Lo
 
 INSERT INTO CUSTOMERS VALUES ( 'ERNSH','Ernst Handel','Kirchgasse 6','Graz','8010','Autriche','7675-3425','7675-3426' );
 
-INSERT INTO CUSTOMERS VALUES ( 'FAMIA','Familia Arquibaldo','Rua Orós, 92','São Paulo','05442-030','Brésil','(11) 555-9857','' );
+INSERT INTO CUSTOMERS VALUES ( 'FAMIA','Familia Arquibaldo','Rua Orï¿½s, 92','Sï¿½o Paulo','05442-030','Brï¿½sil','(11) 555-9857','' );
 
 INSERT INTO CUSTOMERS VALUES ( 'FISSA','FISSA Fabrica Inter. Salchichas S.A.','Moralzarzal, 86','Madrid','28034','Espagne','(91) 555 94 44','(91) 555 55 93' );
 
-INSERT INTO CUSTOMERS VALUES ( 'FOLIG','Folies gourmandes','184, chaussée de Tournai','Lille','59000','France','03.20.16.10.16','03.20.16.10.17' );
+INSERT INTO CUSTOMERS VALUES ( 'FOLIG','Folies gourmandes','184, chaussï¿½e de Tournai','Lille','59000','France','03.20.16.10.16','03.20.16.10.17' );
 
-INSERT INTO CUSTOMERS VALUES ( 'FOLKO','Folk och fä HB','Åkergatan 24','Bräcke','S-844 67','Suède','0695-34 67 21','' );
+INSERT INTO CUSTOMERS VALUES ( 'FOLKO','Folk och fï¿½ HB','ï¿½kergatan 24','Brï¿½cke','S-844 67','Suï¿½de','0695-34 67 21','' );
 
-INSERT INTO CUSTOMERS VALUES ( 'FRANK','Frankenversand','Berliner Platz 43','München','80805','Allemagne','089-0877310','089-0877451' );
+INSERT INTO CUSTOMERS VALUES ( 'FRANK','Frankenversand','Berliner Platz 43','Mï¿½nchen','80805','Allemagne','089-0877310','089-0877451' );
 
 INSERT INTO CUSTOMERS VALUES ( 'FRANR','France restauration','54, rue Royale','Nantes','44000','France','02.40.32.21.21','02.40.32.21.20' );
 
 INSERT INTO CUSTOMERS VALUES ( 'FRANS','Franchi S.p.A.','Via Monte Bianco 34','Torino','10100','Italie','011-4988260','011-4988261' );
 INSERT INTO CUSTOMERS VALUES ( 'FURIB','Furia Bacalhau e Frutos do Mar','Jardim das rosas n. 32','Lisboa','1675','Portugal','(1) 354-2534','(1) 354-2535' );
 
-INSERT INTO CUSTOMERS VALUES ( 'GALED','Galería del gastrónomo','Rambla de Cataluña, 23','Barcelona','08022','Espagne','(93) 203 4560','(93) 203 4561' );
+INSERT INTO CUSTOMERS VALUES ( 'GALED','Galerï¿½a del gastrï¿½nomo','Rambla de Cataluï¿½a, 23','Barcelona','08022','Espagne','(93) 203 4560','(93) 203 4561' );
 
-INSERT INTO CUSTOMERS VALUES ( 'GODOS','Godos Cocina Típica','Romero, 33','Sevilla','41101','Espagne','(95) 555 82 82','' );
+INSERT INTO CUSTOMERS VALUES ( 'GODOS','Godos Cocina Tï¿½pica','Romero, 33','Sevilla','41101','Espagne','(95) 555 82 82','' );
 
-INSERT INTO CUSTOMERS VALUES ( 'GOURL','Gourmet Lanchonetes','Av. Brasil, 442','Campinas','04876-786','Brésil','(11) 555-9482','' );
+INSERT INTO CUSTOMERS VALUES ( 'GOURL','Gourmet Lanchonetes','Av. Brasil, 442','Campinas','04876-786','Brï¿½sil','(11) 555-9482','' );
 
-INSERT INTO CUSTOMERS VALUES ( 'GREAL','Great Lakes Food Market','2732 Baker Blvd.','Eugene','97403','États-Unis','(503) 555-7555','' );
+INSERT INTO CUSTOMERS VALUES ( 'GREAL','Great Lakes Food Market','2732 Baker Blvd.','Eugene','97403','ï¿½tats-Unis','(503) 555-7555','' );
 
-INSERT INTO CUSTOMERS VALUES ( 'GROSR','GROSELLA-Restaurante','5ª Ave. Los Palos Grandes','Caracas','1081','Venezuela','(2) 283-2951','(2) 283-3397' );
+INSERT INTO CUSTOMERS VALUES ( 'GROSR','GROSELLA-Restaurante','5ï¿½ Ave. Los Palos Grandes','Caracas','1081','Venezuela','(2) 283-2951','(2) 283-3397' );
 
-INSERT INTO CUSTOMERS VALUES ( 'HANAR','Hanari Carnes','Rua do Paço, 67','Rio de Janeiro','05454-876','Brésil','(21) 555-0091','(21) 555-8765' );
+INSERT INTO CUSTOMERS VALUES ( 'HANAR','Hanari Carnes','Rua do Paï¿½o, 67','Rio de Janeiro','05454-876','Brï¿½sil','(21) 555-0091','(21) 555-8765' );
 
-INSERT INTO CUSTOMERS VALUES ( 'HILAA','HILARIÓN-Abastos','Carrera 22 con Ave. Carlos Soublette #8-35','San Cristóbal','5022','Venezuela','(5) 555-1340','(5) 555-1948' );
+INSERT INTO CUSTOMERS VALUES ( 'HILAA','HILARIï¿½N-Abastos','Carrera 22 con Ave. Carlos Soublette #8-35','San Cristï¿½bal','5022','Venezuela','(5) 555-1340','(5) 555-1948' );
 
-INSERT INTO CUSTOMERS VALUES ( 'HUNGC','Hungry Coyote Import Store','City Center Plaza516 Main St.','Elgin','97827','États-Unis','(503) 555-6874','(503) 555-2376' );
+INSERT INTO CUSTOMERS VALUES ( 'HUNGC','Hungry Coyote Import Store','City Center Plaza516 Main St.','Elgin','97827','ï¿½tats-Unis','(503) 555-6874','(503) 555-2376' );
 
 INSERT INTO CUSTOMERS VALUES ( 'HUNGO','Hungry Owl All-Night Grocers','8 Johnstown Road','Cork','2506','Irlande','2967 542','2967 3333' );
 
 INSERT INTO CUSTOMERS VALUES ( 'ISLAT','Island Trading','Garden HouseCrowther Way','Cowes','PO31 7PJ','Royaume-Uni','(198) 555-8888','' );
 
-INSERT INTO CUSTOMERS VALUES ( 'KOENE','Königlich Essen','Maubelstr. 90','Brandenburg','14776','Allemagne','0555-09876','' );
+INSERT INTO CUSTOMERS VALUES ( 'KOENE','Kï¿½niglich Essen','Maubelstr. 90','Brandenburg','14776','Allemagne','0555-09876','' );
 
 INSERT INTO CUSTOMERS VALUES ( 'LACOR','La corne d''abondance','67, avenue de l''Europe','Versailles','78000','France','01.30.59.84.10','01.30.59.85.11' );
 
@@ -209,88 +209,88 @@ INSERT INTO CUSTOMERS VALUES ( 'LAMAI','La maison d''Asie','1 rue Alsace-Lorrain
 
 INSERT INTO CUSTOMERS VALUES ( 'LAUGB','Laughing Bacchus Wine Cellars','1900 Oak St.','Vancouver','V3F 2K1','Canada','(604) 555-3392','(604) 555-7293' );
 
-INSERT INTO CUSTOMERS VALUES ( 'LAZYK','Lazy K Kountry Store','12 Orchestra Terrace','Walla Walla','99362','États-Unis','(509) 555-7969','(509) 555-6221' );
+INSERT INTO CUSTOMERS VALUES ( 'LAZYK','Lazy K Kountry Store','12 Orchestra Terrace','Walla Walla','99362','ï¿½tats-Unis','(509) 555-7969','(509) 555-6221' );
 
 INSERT INTO CUSTOMERS VALUES ( 'LEHMS','Lehmanns Marktstand','Magazinweg 7','Frankfurt a.M. ','60528','Allemagne','069-0245984','069-0245874' );
 
-INSERT INTO CUSTOMERS VALUES ( 'LETSS','Let''s Stop N Shop','87 Polk St.Suite 5','San Francisco','94117','États-Unis','(415) 555-5938','' );
+INSERT INTO CUSTOMERS VALUES ( 'LETSS','Let''s Stop N Shop','87 Polk St.Suite 5','San Francisco','94117','ï¿½tats-Unis','(415) 555-5938','' );
 
-INSERT INTO CUSTOMERS VALUES ( 'LILAS','LILA-Supermercado','Carrera 52 con Ave. Bolívar #65-98 Llano Largo','Barquisimeto','3508','Venezuela','(9) 331-6954','(9) 331-7256' );
+INSERT INTO CUSTOMERS VALUES ( 'LILAS','LILA-Supermercado','Carrera 52 con Ave. Bolï¿½var #65-98 Llano Largo','Barquisimeto','3508','Venezuela','(9) 331-6954','(9) 331-7256' );
 
 INSERT INTO CUSTOMERS VALUES ( 'LINOD','LINO-Delicateses','Ave. 5 de Mayo Porlamar','I. de Margarita','4980','Venezuela','(8) 34-56-12','(8) 34-93-93' );
 
-INSERT INTO CUSTOMERS VALUES ( 'LONEP','Lonesome Pine Restaurant','89 Chiaroscuro Rd.','Portland','97219','États-Unis','(503) 555-9573','(503) 555-9646' );
+INSERT INTO CUSTOMERS VALUES ( 'LONEP','Lonesome Pine Restaurant','89 Chiaroscuro Rd.','Portland','97219','ï¿½tats-Unis','(503) 555-9573','(503) 555-9646' );
 
 INSERT INTO CUSTOMERS VALUES ( 'MAGAA','Magazzini Alimentari Riuniti','Via Ludovico il Moro 22','Bergamo','24100','Italie','035-640230','035-640231' );
 
 INSERT INTO CUSTOMERS VALUES ( 'MAISD','Maison Dewey','Rue Joseph-Bens 532','Bruxelles','B-1180','Belgique','(02) 201 24 67','(02) 201 24 68' );
 
-INSERT INTO CUSTOMERS VALUES ( 'MEREP','Mère Paillarde','43 rue St. Laurent','Montréal','H1J 1C3','Canada','(514) 555-8054','(514) 555-8055' );
+INSERT INTO CUSTOMERS VALUES ( 'MEREP','Mï¿½re Paillarde','43 rue St. Laurent','Montrï¿½al','H1J 1C3','Canada','(514) 555-8054','(514) 555-8055' );
 
 INSERT INTO CUSTOMERS VALUES ( 'MORGK','Morgenstern Gesundkost','Heerstr. 22','Leipzig','04179','Allemagne','0342-023176','' );
 
 INSERT INTO CUSTOMERS VALUES ( 'NORTS','North/South','South House300 Queensbridge','London','SW7 1RZ','Royaume-Uni','(71) 555-7733','(71) 555-2530' );
 
-INSERT INTO CUSTOMERS VALUES ( 'OCEAN','Océano Atlántico Ltda.','Ing. Gustavo Moncada 8585Piso 20-A','Buenos Aires','1010','Argentine','(1) 135-5333','(1) 135-5535' );
+INSERT INTO CUSTOMERS VALUES ( 'OCEAN','Ocï¿½ano Atlï¿½ntico Ltda.','Ing. Gustavo Moncada 8585Piso 20-A','Buenos Aires','1010','Argentine','(1) 135-5333','(1) 135-5535' );
 
-INSERT INTO CUSTOMERS VALUES ( 'OLDWO','Old World Delicatessen','2743 Bering St.','Anchorage','99508','États-Unis','(907) 555-7584','(907) 555-2880' );
+INSERT INTO CUSTOMERS VALUES ( 'OLDWO','Old World Delicatessen','2743 Bering St.','Anchorage','99508','ï¿½tats-Unis','(907) 555-7584','(907) 555-2880' );
 
-INSERT INTO CUSTOMERS VALUES ( 'OTTIK','Ottilies Käseladen','Mehrheimerstr. 369','Köln','50739','Allemagne','0221-0644327','0221-0765721' );
+INSERT INTO CUSTOMERS VALUES ( 'OTTIK','Ottilies Kï¿½seladen','Mehrheimerstr. 369','Kï¿½ln','50739','Allemagne','0221-0644327','0221-0765721' );
 
-INSERT INTO CUSTOMERS VALUES ( 'PARIS','Paris spécialités','265, boulevard Charonne','Paris','75012','France','01.42.34.22.66','01.42.34.22.77' );
+INSERT INTO CUSTOMERS VALUES ( 'PARIS','Paris spï¿½cialitï¿½s','265, boulevard Charonne','Paris','75012','France','01.42.34.22.66','01.42.34.22.77' );
 
-INSERT INTO CUSTOMERS VALUES ( 'PERIC','Pericles Comidas clásicas','Calle Dr. Jorge Cash 321','México D.F.','05033','Mexique','(5) 552-3745','(5) 545-3745' );
+INSERT INTO CUSTOMERS VALUES ( 'PERIC','Pericles Comidas clï¿½sicas','Calle Dr. Jorge Cash 321','Mï¿½xico D.F.','05033','Mexique','(5) 552-3745','(5) 545-3745' );
 
 INSERT INTO CUSTOMERS VALUES ( 'PICCO','Piccolo und mehr','Geislweg 14','Salzburg','5020','Autriche','6562-9722','6562-9723' );
 
-INSERT INTO CUSTOMERS VALUES ( 'PRINI','Princesa Isabel Vinhos','Estrada da saúde n. 58','Lisboa','1756','Portugal','(1) 356-5634','' );
+INSERT INTO CUSTOMERS VALUES ( 'PRINI','Princesa Isabel Vinhos','Estrada da saï¿½de n. 58','Lisboa','1756','Portugal','(1) 356-5634','' );
 
-INSERT INTO CUSTOMERS VALUES ( 'QUEDE','Que Delícia','Rua da Panificadora, 12','Rio de Janeiro','02389-673','Brésil','(21) 555-4252','(21) 555-4545' );
+INSERT INTO CUSTOMERS VALUES ( 'QUEDE','Que Delï¿½cia','Rua da Panificadora, 12','Rio de Janeiro','02389-673','Brï¿½sil','(21) 555-4252','(21) 555-4545' );
 
-INSERT INTO CUSTOMERS VALUES ( 'QUEEN','Queen Cozinha','Alameda dos Canàrios, 891','São Paulo','05487-020','Brésil','(11) 555-1189','' );
+INSERT INTO CUSTOMERS VALUES ( 'QUEEN','Queen Cozinha','Alameda dos Canï¿½rios, 891','Sï¿½o Paulo','05487-020','Brï¿½sil','(11) 555-1189','' );
 
-INSERT INTO CUSTOMERS VALUES ( 'QUICK','QUICK-Stop','Taucherstraße 10','Cunewalde','01307','Allemagne','0372-035188','' );
+INSERT INTO CUSTOMERS VALUES ( 'QUICK','QUICK-Stop','Taucherstraï¿½e 10','Cunewalde','01307','Allemagne','0372-035188','' );
 
 INSERT INTO CUSTOMERS VALUES ( 'RANCH','Rancho grande','Av. del Libertador 900','Buenos Aires','1010','Argentine','(1) 123-5555','(1) 123-5556' );
 
-INSERT INTO CUSTOMERS VALUES ( 'RATTC','Rattlesnake Canyon Grocery','2817 Milton Dr.','Albuquerque','87110','États-Unis','(505) 555-5939','(505) 555-3620' );
+INSERT INTO CUSTOMERS VALUES ( 'RATTC','Rattlesnake Canyon Grocery','2817 Milton Dr.','Albuquerque','87110','ï¿½tats-Unis','(505) 555-5939','(505) 555-3620' );
 
 INSERT INTO CUSTOMERS VALUES ( 'REGGC','Reggiani Caseifici','Strada Provinciale 124','Reggio Emilia','42100','Italie','0522-556721','0522-556722' );
 
-INSERT INTO CUSTOMERS VALUES ( 'RICAR','Ricardo Adocicados','Av. Copacabana, 267','Rio de Janeiro','02389-890','Brésil','(21) 555-3412','' );
+INSERT INTO CUSTOMERS VALUES ( 'RICAR','Ricardo Adocicados','Av. Copacabana, 267','Rio de Janeiro','02389-890','Brï¿½sil','(21) 555-3412','' );
 
-INSERT INTO CUSTOMERS VALUES ( 'RICSU','Richter Supermarkt','Grenzacherweg 237','Genève','1203','Suisse','0897-034214','' );
+INSERT INTO CUSTOMERS VALUES ( 'RICSU','Richter Supermarkt','Grenzacherweg 237','Genï¿½ve','1203','Suisse','0897-034214','' );
 
-INSERT INTO CUSTOMERS VALUES ( 'ROMEY','Romero y tomillo','Gran Vía, 1','Madrid','28001','Espagne','(91) 745 6200','(91) 745 6210' );
+INSERT INTO CUSTOMERS VALUES ( 'ROMEY','Romero y tomillo','Gran Vï¿½a, 1','Madrid','28001','Espagne','(91) 745 6200','(91) 745 6210' );
 
-INSERT INTO CUSTOMERS VALUES ( 'SANTG','Santé Gourmet','Erling Skakkes gate 78','Stavern','4110','Norvège','07-98 92 35','07-98 92 47' );
+INSERT INTO CUSTOMERS VALUES ( 'SANTG','Santï¿½ Gourmet','Erling Skakkes gate 78','Stavern','4110','Norvï¿½ge','07-98 92 35','07-98 92 47' );
 
-INSERT INTO CUSTOMERS VALUES ( 'SAVEA','Save-a-lot Markets','187 Suffolk Ln.','Boise','83720','États-Unis','(208) 555-8097','' );
+INSERT INTO CUSTOMERS VALUES ( 'SAVEA','Save-a-lot Markets','187 Suffolk Ln.','Boise','83720','ï¿½tats-Unis','(208) 555-8097','' );
 
 INSERT INTO CUSTOMERS VALUES ( 'SEVES','Seven Seas Imports','90 Wadhurst Rd.','London','OX15 4NB','Royaume-Uni','(71) 555-1717','(71) 555-5646' );
 
-INSERT INTO CUSTOMERS VALUES ( 'SIMOB','Simons bistro','Vinbæltet 34','København','1734','Danemark','31 12 34 56','31 13 35 57' );
+INSERT INTO CUSTOMERS VALUES ( 'SIMOB','Simons bistro','Vinbï¿½ltet 34','Kï¿½benhavn','1734','Danemark','31 12 34 56','31 13 35 57' );
 
-INSERT INTO CUSTOMERS VALUES ( 'SPECD','Spécialités du monde','25, rue Lauriston','Paris','75016','France','01.47.55.60.10','01.47.55.60.20' );
+INSERT INTO CUSTOMERS VALUES ( 'SPECD','Spï¿½cialitï¿½s du monde','25, rue Lauriston','Paris','75016','France','01.47.55.60.10','01.47.55.60.20' );
 
-INSERT INTO CUSTOMERS VALUES ( 'SPLIR','Split Rail Beer  Ale','P.O. Box 555','Lander','82520','États-Unis','(307) 555-4680','(307) 555-6525' );
+INSERT INTO CUSTOMERS VALUES ( 'SPLIR','Split Rail Beer  Ale','P.O. Box 555','Lander','82520','ï¿½tats-Unis','(307) 555-4680','(307) 555-6525' );
 
 
-INSERT INTO CUSTOMERS VALUES ( 'SUPRD','Suprêmes délices','Boulevard Tirou, 255','Charleroi','B-6000','Belgique','(071) 23 67 22 20','(071) 23 67 22 21' );
+INSERT INTO CUSTOMERS VALUES ( 'SUPRD','Suprï¿½mes dï¿½lices','Boulevard Tirou, 255','Charleroi','B-6000','Belgique','(071) 23 67 22 20','(071) 23 67 22 21' );
 
-INSERT INTO CUSTOMERS VALUES ( 'THEBI','The Big Cheese','89 Jefferson WaySuite 2','Portland','97201','États-Unis','(503) 555-3612','' );
+INSERT INTO CUSTOMERS VALUES ( 'THEBI','The Big Cheese','89 Jefferson WaySuite 2','Portland','97201','ï¿½tats-Unis','(503) 555-3612','' );
 
-INSERT INTO CUSTOMERS VALUES ( 'THECR','The Cracker Box','55 Grizzly Peak Rd.','Butte','59801','États-Unis','(406) 555-5834','(406) 555-8083' );
+INSERT INTO CUSTOMERS VALUES ( 'THECR','The Cracker Box','55 Grizzly Peak Rd.','Butte','59801','ï¿½tats-Unis','(406) 555-5834','(406) 555-8083' );
 
-INSERT INTO CUSTOMERS VALUES ( 'TOMSP','Toms Spezialitäten','Luisenstr. 48','Münster','44087','Allemagne','0251-031259','0251-035695' );
+INSERT INTO CUSTOMERS VALUES ( 'TOMSP','Toms Spezialitï¿½ten','Luisenstr. 48','Mï¿½nster','44087','Allemagne','0251-031259','0251-035695' );
 
-INSERT INTO CUSTOMERS VALUES ( 'TORTU','Tortuga Restaurante','Avda. Azteca 123','México D.F.','05033','Mexique','(5) 555-2933','' );
+INSERT INTO CUSTOMERS VALUES ( 'TORTU','Tortuga Restaurante','Avda. Azteca 123','Mï¿½xico D.F.','05033','Mexique','(5) 555-2933','' );
 
-INSERT INTO CUSTOMERS VALUES ( 'TRADH','Tradição Hipermercados','Av. Inês de Castro, 414','São Paulo','05634-030','Brésil','(11) 555-2167','(11) 555-2168' );
+INSERT INTO CUSTOMERS VALUES ( 'TRADH','Tradiï¿½ï¿½o Hipermercados','Av. Inï¿½s de Castro, 414','Sï¿½o Paulo','05634-030','Brï¿½sil','(11) 555-2167','(11) 555-2168' );
 
-INSERT INTO CUSTOMERS VALUES ( 'TRAIH','Trail''s Head Gourmet Provisioners','722 DaVinci Blvd.','Kirkland','98034','États-Unis','(206) 555-8257','(206) 555-2174' );
+INSERT INTO CUSTOMERS VALUES ( 'TRAIH','Trail''s Head Gourmet Provisioners','722 DaVinci Blvd.','Kirkland','98034','ï¿½tats-Unis','(206) 555-8257','(206) 555-2174' );
 
-INSERT INTO CUSTOMERS VALUES ( 'VAFFE','Vaffeljernet','Smagsløget 45','Århus','8200','Danemark','86 21 32 43','86 22 33 44' );
+INSERT INTO CUSTOMERS VALUES ( 'VAFFE','Vaffeljernet','Smagslï¿½get 45','ï¿½rhus','8200','Danemark','86 21 32 43','86 22 33 44' );
 
 INSERT INTO CUSTOMERS VALUES ( 'VICTE','Victuailles en stock','2, rue du Commerce','Lyon','69004','France','04.78.32.54.86','04.78.32.54.87' );
 
@@ -300,9 +300,9 @@ INSERT INTO CUSTOMERS VALUES ( 'WANDK','Die Wandernde Kuh','Adenauerallee 900','
 
 INSERT INTO CUSTOMERS VALUES ( 'WARTH','Wartian Herkku','Torikatu 38','Oulu','90110','Finlande','981-443655','981-443655' );
 
-INSERT INTO CUSTOMERS VALUES ( 'WELLI','Wellington Importadora','Rua do Mercado, 12','Resende','08737-363','Brésil','(14) 555-8122','' );
+INSERT INTO CUSTOMERS VALUES ( 'WELLI','Wellington Importadora','Rua do Mercado, 12','Resende','08737-363','Brï¿½sil','(14) 555-8122','' );
 
-INSERT INTO CUSTOMERS VALUES ( 'WHITC','White Clover Markets','305 - 14th Ave. S.Suite 3B','Seattle','98128','États-Unis','(206) 555-4112','(206) 555-4115' );
+INSERT INTO CUSTOMERS VALUES ( 'WHITC','White Clover Markets','305 - 14th Ave. S.Suite 3B','Seattle','98128','ï¿½tats-Unis','(206) 555-4112','(206) 555-4115' );
 
 INSERT INTO CUSTOMERS VALUES ( 'WILMK','Wilman Kala','Keskuskatu 45','Helsinki','21240','Finlande','90-224 8858','90-224 8858' );
 
@@ -316,7 +316,7 @@ select * from SUPPLIERS;
 
 INSERT INTO SUPPLIERS VALUES ( 1,'Exotic Liquids','49 Gilbert St.','London','EC1 4SD','Royaume-Uni','(171) 555-2222','' );
 
-INSERT INTO SUPPLIERS VALUES ( 2,'Nouvelle-Orléans Cajun Delights','P.O. Box 78934','Nouvelle-Orléans','70117','Etats-Unis','(100) 555-4822','' );
+INSERT INTO SUPPLIERS VALUES ( 2,'Nouvelle-Orlï¿½ans Cajun Delights','P.O. Box 78934','Nouvelle-Orlï¿½ans','70117','Etats-Unis','(100) 555-4822','' );
 
 INSERT INTO SUPPLIERS VALUES ( 3,'Grandma Kelly''s Homestead','707 Oxford Rd.','Ann Arbor','48104','Etats-Unis','(313) 555-5735','(313) 555-3349' );
 
@@ -330,25 +330,25 @@ INSERT INTO SUPPLIERS VALUES ( 7,'Pavlova, Ltd.','74 Rose St.Moonie Ponds','Melb
 
 INSERT INTO SUPPLIERS VALUES ( 8,'Specialty Biscuits, Ltd.','29 King''s Way','Manchester','M14 GSD','Royaume-Uni','(161) 555-4448','' );
 
-INSERT INTO SUPPLIERS VALUES ( 9,'PB Knäckebröd AB','Kaloadagatan 13','Göteborg','S-345 67','Suède','031-987 65 43','031-987 65 91' );
+INSERT INTO SUPPLIERS VALUES ( 9,'PB Knï¿½ckebrï¿½d AB','Kaloadagatan 13','Gï¿½teborg','S-345 67','Suï¿½de','031-987 65 43','031-987 65 91' );
 
-INSERT INTO SUPPLIERS VALUES ( 10,'Refrescos Americanas LTDA','Av. das Americanas 12.890','São Paulo','5442','Brésil','(11) 555 4640','' );
+INSERT INTO SUPPLIERS VALUES ( 10,'Refrescos Americanas LTDA','Av. das Americanas 12.890','Sï¿½o Paulo','5442','Brï¿½sil','(11) 555 4640','' );
 
-INSERT INTO SUPPLIERS VALUES ( 11,'Heli Süßwaren GmbH  Co. KG','Tiergartenstraße 5','Berlin','10785','Allemagne','(010) 9984510','' );
+INSERT INTO SUPPLIERS VALUES ( 11,'Heli Sï¿½ï¿½waren GmbH  Co. KG','Tiergartenstraï¿½e 5','Berlin','10785','Allemagne','(010) 9984510','' );
 
-INSERT INTO SUPPLIERS VALUES ( 12,'Plutzer Lebensmittelgroßmärkte AG','Bogenallee 51','Frankfurt','60439','Allemagne','(069) 992755','' );
+INSERT INTO SUPPLIERS VALUES ( 12,'Plutzer Lebensmittelgroï¿½mï¿½rkte AG','Bogenallee 51','Frankfurt','60439','Allemagne','(069) 992755','' );
 
 INSERT INTO SUPPLIERS VALUES ( 13,'Nord-Ost-Fisch Handelsgesellschaft mbH','Frahmredder 112a','Cuxhaven','27478','Allemagne','(04721) 8713','(04721) 8714' );
 
 INSERT INTO SUPPLIERS VALUES ( 14,'Formaggi Fortini s.r.l.','Viale Dante, 75','Ravenna','48100','Italie','(0544) 60323','(0544) 60603' );
 
-INSERT INTO SUPPLIERS VALUES ( 15,'Norske Meierier','Hatlevegen 5','Sandvika','1320','Norvège','(0)2-953010','' );
+INSERT INTO SUPPLIERS VALUES ( 15,'Norske Meierier','Hatlevegen 5','Sandvika','1320','Norvï¿½ge','(0)2-953010','' );
 
 INSERT INTO SUPPLIERS VALUES ( 16,'Bigfoot Breweries','3400 - 8th AvenueSuite 210','Bend','97101','Etats-Unis','(503) 555-9931','' );
 
-INSERT INTO SUPPLIERS VALUES ( 17,'Svensk Sjöföda AB','Brovallavägen 231','Stockholm','S-123 45','Suède','08-123 45 67','' );
+INSERT INTO SUPPLIERS VALUES ( 17,'Svensk Sjï¿½fï¿½da AB','Brovallavï¿½gen 231','Stockholm','S-123 45','Suï¿½de','08-123 45 67','' );
 
-INSERT INTO SUPPLIERS VALUES ( 18,'Aux joyeux ecclésiastiques','203, Rue des Francs-Bourgeois','Paris','75004','France','01.03.83.00.68','01.03.83.00.62' );
+INSERT INTO SUPPLIERS VALUES ( 18,'Aux joyeux ecclï¿½siastiques','203, Rue des Francs-Bourgeois','Paris','75004','France','01.03.83.00.68','01.03.83.00.62' );
 
 INSERT INTO SUPPLIERS VALUES ( 19,'New England Seafood Cannery','Order Processing Dept.2100 Paul Revere Blvd.','Boston','02134','Etats-Unis','(617) 555-3267','(617) 555-3389' );
 
@@ -362,15 +362,15 @@ INSERT INTO SUPPLIERS VALUES ( 23,'Karkki Oy','Valtakatu 12','Lappeenranta','531
 
 INSERT INTO SUPPLIERS VALUES ( 24,'G''day, Mate','170 Prince Edward ParadeHunter''s Hill','Sydney','2042','Australie','(02) 555-4873','(02) 555-4873' );
 
-INSERT INTO SUPPLIERS VALUES ( 25,'Ma Maison','2960 Rue St. Laurent','Montréal','H1J 1C3','Canada','(514) 555-9022','' );
+INSERT INTO SUPPLIERS VALUES ( 25,'Ma Maison','2960 Rue St. Laurent','Montrï¿½al','H1J 1C3','Canada','(514) 555-9022','' );
 
 INSERT INTO SUPPLIERS VALUES ( 26,'Pasta Buttini s.r.l.','Via dei Gelsomini, 153','Salerno','84100','Italie','(089) 6547665','(089) 6547667' );
 
 INSERT INTO SUPPLIERS VALUES ( 27,'Escargots Nouveaux','22, rue H. Voiron','Montceau','71300','France','04.85.57.00.07','' );
 
-INSERT INTO SUPPLIERS VALUES ( 28,'Gai pâturage','Bat. B3, rue des Alpes','Annecy','74000','France','04.38.76.98.06','04.38.76.98.58' );
+INSERT INTO SUPPLIERS VALUES ( 28,'Gai pï¿½turage','Bat. B3, rue des Alpes','Annecy','74000','France','04.38.76.98.06','04.38.76.98.58' );
 
-INSERT INTO SUPPLIERS VALUES ( 29,'Forêts d''érables','148 rue Chasseur','Ste-Hyacinthe','J2S 7S8','Canada','(514) 555-2955','(514) 555-2921' );
+INSERT INTO SUPPLIERS VALUES ( 29,'Forï¿½ts d''ï¿½rables','148 rue Chasseur','Ste-Hyacinthe','J2S 7S8','Canada','(514) 555-2955','(514) 555-2921' );
 
 INSERT INTO SUPPLIERS VALUES ( 30,'Lenovo','149 rue Chasseur','Ste-Hyacinthe','J2S 7S8','Canada','(514) 555-2956','(514) 555-2922' );
 
@@ -396,10 +396,10 @@ INSERT INTO PRODUCTS VALUES (17, 'Alice Mutton', 7, 6, '20 boxes (1 kg)', 195.00
 INSERT INTO PRODUCTS VALUES (19, 'Teatime Chocolate Biscuits', 8, 3, '10 boxes x 12 pieces', 46.00, 25, 0, 0);
 INSERT INTO PRODUCTS VALUES (20, 'Sir Rodney\"s Marmalade', 8, 3, '30 jars', 405.00, 40, 0, 0);
 INSERT INTO PRODUCTS VALUES (21, 'Sir Rodney\"s Scones', 8, 3, '24 cartons x 4 pieces', 50.00, 3, 40, 0);
-INSERT INTO PRODUCTS VALUES (22, 'Gustaf\"s Knäckebröd', 9, 5, '24 cartons (500 g)', 105.00, 104, 0, 0);
-INSERT INTO PRODUCTS VALUES (23, 'Tunnbröd', 9, 5, '12 cartons (250 g)', 45.00, 61, 0, 0);
-INSERT INTO PRODUCTS VALUES (25, 'NuNuCa Nuß-Nougat-Creme', 11, 3, '20 jars (450 g)', 70.00, 76, 0, 0);
-INSERT INTO PRODUCTS VALUES (28, 'Rössle Sauerkraut', 12, 7, '25 cans (825 g)', 228.00, 26, 0, -1);
+INSERT INTO PRODUCTS VALUES (22, 'Gustaf\"s Knï¿½ckebrï¿½d', 9, 5, '24 cartons (500 g)', 105.00, 104, 0, 0);
+INSERT INTO PRODUCTS VALUES (23, 'Tunnbrï¿½d', 9, 5, '12 cartons (250 g)', 45.00, 61, 0, 0);
+INSERT INTO PRODUCTS VALUES (25, 'NuNuCa Nuï¿½-Nougat-Creme', 11, 3, '20 jars (450 g)', 70.00, 76, 0, 0);
+INSERT INTO PRODUCTS VALUES (28, 'Rï¿½ssle Sauerkraut', 12, 7, '25 cans (825 g)', 228.00, 26, 0, -1);
 INSERT INTO PRODUCTS VALUES (32, 'Mascarpone Fabioli', 14, 4, '24 cartons (200 g)', 160.00, 9, 40, 0);
 INSERT INTO PRODUCTS VALUES (34, 'Sasquatch Ale', 16, 1, '24 bottles (70 cl)', 70.00, 111, 0, 0);
 INSERT INTO PRODUCTS VALUES (35, 'Steeleye Stout', 16, 1, '24 bottles (1 liter)', 90.00, 20, 0, 0);
@@ -414,7 +414,7 @@ INSERT INTO PRODUCTS VALUES (49, 'Maxilaku', 23, 3, '24 cartons (50 g)', 100.00,
 INSERT INTO PRODUCTS VALUES (51, 'Manjimup Dried Apples', 24, 7, '50 cartons (300 g)', 265.00, 20, 0, 0);
 INSERT INTO PRODUCTS VALUES (52, 'Filo Mix', 24, 5, '16 boxes (2 kg)', 35.00, 38, 0, 0);
 INSERT INTO PRODUCTS VALUES (53, 'Perth Pasties', 24, 6, '48 pieces', 164.00, 0, 0, -1);
-INSERT INTO PRODUCTS VALUES (55, 'Pâté chinois', 25, 6, '24 boxes x 2 pies', 120.00, 115, 0, 0);
+INSERT INTO PRODUCTS VALUES (55, 'Pï¿½tï¿½ chinois', 25, 6, '24 boxes x 2 pies', 120.00, 115, 0, 0);
 INSERT INTO PRODUCTS VALUES (56, 'Gnocchi di nonna Alice', 26, 5, '24 cartons (250 g)', 190.00, 21, 10, 0);
 INSERT INTO PRODUCTS VALUES (59, 'Raclette Courdavault', 28, 4, '1 carton (5 kg)', 275.00, 79, 0, 0);
 INSERT INTO PRODUCTS VALUES (60, 'Camembert Pierrot', 28, 4, '15 units (300 g)', 170.00, 19, 0, 0);
@@ -423,10 +423,10 @@ INSERT INTO PRODUCTS VALUES (67, 'Laughing Lumberjack Lager', 16, 1, '24 bottles
 INSERT INTO PRODUCTS VALUES (69, 'Gudbrandsdalsost', 15, 4, '1 carton (10 kg)', 180.00, 26, 0, 0);
 INSERT INTO PRODUCTS VALUES (70, 'Outback Lager', 7, 1, '24 bottles (355 ml)', 75.00, 15, 10, 0);
 INSERT INTO PRODUCTS VALUES (72, 'Mozzarella di Giovanni', 14, 4, '24 cartons (200 g)', 174.00, 14, 0, 0);
-INSERT INTO PRODUCTS VALUES (73, 'Röd Kaviar', 17, 8, '24 jars (150 g)', 75.00, 101, 0, 0);
+INSERT INTO PRODUCTS VALUES (73, 'Rï¿½d Kaviar', 17, 8, '24 jars (150 g)', 75.00, 101, 0, 0);
 INSERT INTO PRODUCTS VALUES (74, 'Longlife Tofu', 4, 7, '1 carton (5 kg)', 50.00, 4, 20, 0);
-INSERT INTO PRODUCTS VALUES (76, 'Lakkalikööri', 23, 1, '1 bottle (500 ml)', 90.00, 57, 0, 0);
-INSERT INTO PRODUCTS VALUES (77, 'Original Frankfurter grüne Soße', 12, 2, '12 cans', 65.00, 32, 0, 0);
+INSERT INTO PRODUCTS VALUES (76, 'Lakkalikï¿½ï¿½ri', 23, 1, '1 bottle (500 ml)', 90.00, 57, 0, 0);
+INSERT INTO PRODUCTS VALUES (77, 'Original Frankfurter grï¿½ne Soï¿½e', 12, 2, '12 cans', 65.00, 32, 0, 0);
 INSERT INTO PRODUCTS VALUES (5, 'Chef Anton\"s Gumbo Mix', 2, 2, '36 cans', 106.00, 0, 0, 1);
 INSERT INTO PRODUCTS VALUES (14, 'Tofu', 6, 7, '40 cartons (100 g)', 116.00, 35, 0, 0);
 INSERT INTO PRODUCTS VALUES (15, 'Genen Shouyu', 6, 2, '24 bottles (250 ml)', 78.00,0,0,0);
