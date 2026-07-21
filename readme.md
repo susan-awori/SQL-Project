@@ -38,6 +38,7 @@ The queries in this project demonstrate the use of:
 - `SQL_project(1).sql` – Database creation and sample data.
 - `SQLQuery2.sql` – SQL solutions for Questions 3–12.
 - `README.md` – Project documentation.
+- `Screenshot` - Screenshots of the executed SQL queries are available in the screenshots folder.
 
 ## Technologies Used
 
