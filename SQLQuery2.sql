@@ -87,3 +87,36 @@ AND RIGHT(POSTAL_CODE, 3) = (
     WHERE SUPPLIER_int = 1
 );
 
+/*
+Question 6
+For each order number between 10998 and 11003, do the following:  
+-Display the new discount rate, which should be 0% if the total order amount before discount
+(unit price * quantity) is between 0 and 2000, 5% if between 2001 and 10000, 10% if between 
+10001 and 40000, 15% if between 40001 and 80000, and 20% otherwise.
+-Display the message "apply old discount rate" if the order number is between 10000 and 10999,
+and "apply new discount rate" otherwise. 
+The resulting table should display the columns: order number, new discount rate, and discount 
+rate application note.*/
+
+SELECT
+    ORDER_int,
+
+    CASE
+        WHEN SUM(UNIT_PRICE * QUANTITY) BETWEEN 0 AND 2000 THEN '0%'
+        WHEN SUM(UNIT_PRICE * QUANTITY) BETWEEN 2001 AND 10000 THEN '5%'
+        WHEN SUM(UNIT_PRICE * QUANTITY) BETWEEN 10001 AND 40000 THEN '10%'
+        WHEN SUM(UNIT_PRICE * QUANTITY) BETWEEN 40001 AND 80000 THEN '15%'
+        ELSE '20%'
+    END AS NEW_DISCOUNT_RATE,
+
+    CASE
+        WHEN ORDER_int BETWEEN 10000 AND 10999
+            THEN 'apply old discount rate'
+        ELSE 'apply new discount rate'
+    END AS DISCOUNT_NOTE
+
+FROM ORDER_DETAILS
+WHERE ORDER_int BETWEEN 10998 AND 11003
+GROUP BY ORDER_int
+ORDER BY ORDER_int;
+
