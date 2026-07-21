@@ -41,3 +41,26 @@ FROM EMPLOYEES
 WHERE TITLE = 'Mr.'
   AND (SALARY + ISNULL(COMMISSION, 0)) >= 8000
 ORDER BY Seniority DESC;
+
+
+/*
+Question 4
+Display products that meet the following criteria: (C1) quantity is packaged in bottle(s), 
+(C2) the third character in the product name is 't' or 'T', (C3) supplied by suppliers 1, 2,
+or 3, (C4) unit price ranges between 70 and 200, and (C5) units ordered are specified (not null). 
+The resulting table should include the following columns: product number, product name, supplier 
+number, units ordered, and unit price.*/
+SELECT
+    PRODUCT_REF,
+    PRODUCT_NAME,
+    SUPPLIER_int,
+    UNITS_ON_ORDER,
+    UNIT_PRICE
+FROM PRODUCTS
+WHERE LOWER(QUANTITY) LIKE '%bottle%'
+    AND UPPER(SUBSTRING(PRODUCT_NAME, 3, 1)) = 'T'
+    AND SUPPLIER_int IN (1, 2, 3)
+    AND UNIT_PRICE BETWEEN 70 AND 200
+    AND UNITS_ON_ORDER IS NOT NULL;
+
+    
